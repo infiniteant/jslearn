@@ -1,0 +1,44 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>JavaScript能够直接写入HTML输入流中</p>
+    <script>
+        document.write("<h1>这是一个标题</h1>");
+        document.write("<p>这是一个段落</p>")
+    </script>
+    <p>
+        您只能在HTML输出流中使用<strong>document.write</strong>
+        如果您在文档已加载后使用它(比如在函数中)，会覆盖整个文档
+    </p>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>JavaScript能够直接写入HTML输入流中</p>
+    <script>
+        function display(){
+            document.write("<h1>这是一个标题</h1>");
+            document.write("<p>这是一个段落</p>");
+        }
+    </script>
+    <button type="button" onclick="display()">点击</button>
+    <p>
+        您只能在HTML输出流中使用<strong>document.write</strong>
+        如果您在文档已加载后使用它(比如在函数中)，会覆盖整个文档
+    </p>
+</body>
+</html>
