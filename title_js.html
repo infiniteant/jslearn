@@ -1,0 +1,60 @@
+<!-- 通常将函数放在<head>部分，或者直接放在页面底部，这样就可以把他们安置在同一处位置，不会干扰页面的内容 -->
+<!-- <head> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML="我的JavaScript函数"
+        }
+    </script>
+</head>
+<body>
+    <h1>我的Web页面</h1>
+    <p id="demo">一个段落</p>
+    <button type="button" onclick="myFunction()">点击这里</button>
+</body>
+</html> -->
+
+<!-- <body> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>我的Web页面</h1>
+    <p id="demo">一个段落</p>
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML="我的JavaScript函数"
+        }
+    </script>
+    <button type="button" onclick="myFunction()">点击这里</button>
+</body>
+</html> -->
+
+<!-- 外部的JavaScript -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>我的Web页面</h1>
+    <p id="demo">一个段落</p>
+    <button type="button" onclick="myFunction()">点击这里</button>
+    <p><b>注释:</b>myFunction保存为名为myScript1.js的外部文件当中</p>
+    <script src="js/myScript1.js"></script>
+</body>
+</html>
